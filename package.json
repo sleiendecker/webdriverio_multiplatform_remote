@@ -1,0 +1,20 @@
+{
+  "name": "webdriverio_multiplatform_remote",
+  "version": "0.0.1",
+  "description": "Webdriver.io demo using multiremote on multiple platforms",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "express": "^4.15.2",
+    "socket.io": "^1.7.3",
+    "user-agent-parser": "^0.6.0",
+    "wdio-appium-service": "^0.2.3",
+    "wdio-mocha-framework": "^0.5.11",
+    "wdio-selenium-standalone-service": "0.0.9",
+    "wdio-spec-reporter": "^0.1.2",
+    "webdriverio": "^4.8.0"
+  },
+  "scripts": {
+    "start": "node app/index.js",
+    "test": "./node_modules/webdriverio/bin/wdio wdio.conf.js"
+  }
+}
